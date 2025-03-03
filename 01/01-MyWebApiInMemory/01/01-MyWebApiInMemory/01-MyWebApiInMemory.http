@@ -1,0 +1,6 @@
+@_01_MyWebApiInMemory_HostAddress = http://localhost:5011
+
+GET {{_01_MyWebApiInMemory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
