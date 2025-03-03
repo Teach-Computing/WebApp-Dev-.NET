@@ -10,7 +10,7 @@ namespace _01_MyWebApiInMemory.Controllers
         [HttpGet("hello")]
         public IActionResult GetHello()
         {
-            return Ok("Hello World!");
+            return Ok("Hello World!"); 
         }
 
         [HttpGet("time")]

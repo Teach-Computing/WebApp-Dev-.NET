@@ -1,15 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using _01_MyWebApiInMemory.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _01_MyWebApiInMemory.Controllers;
 
-public class Product
-{
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string? Description { get; set; } // Nullable string
-    public decimal Price { get; set; }
-}
+
 
 
 [Route("api/[controller]")]
